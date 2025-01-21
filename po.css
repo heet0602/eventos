@@ -1,0 +1,333 @@
+/* Reset styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: lightgray;
+    color: #404040;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: #404040;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+
+/* Home section styles */
+
+.home {
+    background-image: url('photes/OIP-1.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.home .btn {
+    background-color: lightgray;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.home .btn:hover {
+    background-color: #fff;
+}
+
+
+/* About section styles */
+
+.about {
+    background-image: url('photes/about.jpg');
+    background-size: cover;
+    color: #e41a1a;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: large;
+    color: #fff;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.about .btn {
+    background-color: lightgray;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.about .btn:hover {
+    background-color: #fff;
+}
+
+
+/* Services section styles */
+
+.services {
+    background-color: lightgray;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.services h1 {
+    color: #404040;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.services .boxContiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.services .box:hover {
+    transform: translateY(-10px);
+}
+
+.services .box i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #404040;
+}
+
+.services .box h3,
+.services .box p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+
+/* Gallery section styles */
+
+.gallery {
+    background-color: lightgrey;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.gallery h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.gallery .boxContiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery .box {
+    background-color: #999999;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery .box:hover {
+    transform: translateY(-10px);
+}
+
+.gallery .box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery .box h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery .box .icons a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.gallery .box .icons a:hover {
+    color: #ffcc00;
+}
+
+
+/* Review section styles */
+
+.review {
+    background-color: darkgray;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.review h1 {
+    color: #404040;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.review .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #595959y;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.review .swiper-slide p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+
+/* Contact section styles */
+
+.contact {
+    background-color: #333;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.contact .inputBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contact input {
+    width: 48%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact .btn {
+    background-color: lightgrey;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn:hover {
+    background-color: #ffffff;
+}
+
+.heading {
+    color: white;
+    font-size: 84px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 22px;
+}
+
+.title {
+    color: lightcyan;
+    font-weight: bold;
+    fontpadding: 5px;
+    font-size: 20px;
+}
+
+.heading-1 {
+    color: #404040;
+    font-size: 84px;
+}
